@@ -269,12 +269,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fab"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://www.linkedin.com/in/stephen-donaghy-b0703015"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/neoKushan"
+
+  [[params.social]]
+    icon = "xbox"
+    icon_pack = "fab"
+    link = "https://account.xbox.com/en-us/profile?gamertag=neoKushan"
+
+  [[params.social]]
+    icon = "steam"
+    icon_pack = "fab"
+    link = "https://steamcommunity.com/id/Kushan"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
