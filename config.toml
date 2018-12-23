@@ -267,8 +267,8 @@ enableGitInfo = false
     link = "https://twitter.com/KushanTheCat"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
+    icon = "linkedin"
+    icon_pack = "fab"
     link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
