@@ -1,6 +1,6 @@
 +++
-title = "First post"
-date = 2017-12-23T00:00:00
+title = "Projects"
+date = 2018-12-23T00:00:00
 
 # List format.
 #   0 = Simple
@@ -13,6 +13,3 @@ list_format = 2
 image = ""
 caption = ""
 +++
-
-
-I'm a nerdy boy and I love Hugo.

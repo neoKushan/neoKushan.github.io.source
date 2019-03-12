@@ -13,7 +13,8 @@ weight = 5
     "Technology",
     "Development",
     "Gaming",
-	"Baking"
+	"Baking",
+  "Cats"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -27,4 +28,4 @@ weight = 5
 
 # Biography
 
-Steve Donaghy loves tech
+Steve Donaghy loves tech, programming, gaming and cats.
