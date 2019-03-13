@@ -22,21 +22,51 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
+  icon = "globe-europe"
+  icon_pack = "fas"
+  name = "Programming Languages"
+  description = "C++/CLI, C#, VB.net, Powershell, Javascript, JSON, XML, YAML, TOML"  
+
+[[feature]]
+  icon = "markdown"
+  icon_pack = "fab"
+  name = "Markup Languages"
+  description = "JSON, XML, YAML, TOML, Markdown"  
+
+[[feature]]
   icon = "microsoft "
   icon_pack = "fab"
   name = ".net"
-  description = "C#"
-  
+  description = ".net 4.7+, asp.net, Entity Framework, .net core, Windows Forms"
+
 [[feature]]
   icon = "cloud"
   icon_pack = "fas"
   name = "Cloud"
-  description = "Azure"  
+  description = "Azure, AWS"  
   
 [[feature]]
   icon = "server"
   icon_pack = "fas"
   name = "Devops"
-  description = "From code to deployment"
+  description = "CI/CD, Release Management, Azure Devops (VSTS)"
+
+[[feature]]
+  icon = "docker"
+  icon_pack = "fab"
+  name = "Containers"
+  description = "Docker, Kubernetes"
+
+[[feature]]
+  icon = "wifi"
+  icon_pack = "fas"
+  name = "IoT"
+  description = "Home Assistant, Z-Wave, Zigbee"
+
+[[feature]]
+  icon = "lightbulb"
+  icon_pack = "fas"
+  name = "Everything else..."
+  description = "ReactiveUI, XML"
 
 +++
