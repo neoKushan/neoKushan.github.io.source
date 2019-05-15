@@ -25,19 +25,19 @@ weight = 7
   icon = "globe-europe"
   icon_pack = "fas"
   name = "Programming Languages"
-  description = "C++/CLI, C#, VB.net, Powershell, Javascript, JSON, XML, YAML, TOML"  
+  description = "C++/CLI, C#, VB.net, Powershell, Bash, Javascript"  
 
 [[feature]]
   icon = "markdown"
   icon_pack = "fab"
   name = "Markup Languages"
-  description = "JSON, XML, YAML, TOML, Markdown"  
+  description = "HTML, JSON, XML, YAML, TOML, Markdown"  
 
 [[feature]]
   icon = "microsoft "
   icon_pack = "fab"
   name = ".net"
-  description = ".net 4.7+, asp.net, Entity Framework, .net core, Windows Forms"
+  description = ".net 4.7+, asp.net, Entity Framework, .net core 2.2+, Windows Forms, Xamarin"
 
 [[feature]]
   icon = "cloud"
@@ -49,7 +49,7 @@ weight = 7
   icon = "server"
   icon_pack = "fas"
   name = "Devops"
-  description = "CI/CD, Release Management, Azure Devops (VSTS)"
+  description = "CI/CD, Release Management, Azure Devops (VSTS), ELK stack, Prometheus"
 
 [[feature]]
   icon = "docker"
@@ -67,6 +67,6 @@ weight = 7
   icon = "lightbulb"
   icon_pack = "fas"
   name = "Everything else..."
-  description = "ReactiveUI, XML"
+  description = "Jira, Confluence, git, PlantUML"
 
 +++
