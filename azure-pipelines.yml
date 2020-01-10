@@ -10,7 +10,7 @@ steps:
   inputs:
     source: 
     destination: '$(Build.ArtifactStagingDirectory)'
-    hugoVersion: '0.60.1'
+    hugoVersion: '0.62.2'
     extendedVersion: true
 
 - task: PublishBuildArtifacts@1
