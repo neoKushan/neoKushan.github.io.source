@@ -1,17 +1,16 @@
 +++
 # Experience widget.
-widget = "experience"  # Do not modify this line!
+widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
+weight = 40  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
 
-# Order that this section will appear in.
-weight = 8
-
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "January 2006"
+date_format = "Jan 2006"
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -19,12 +18,28 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Technical Lead"
+  company = "Vaultex"
+  company_url = "https://vaultexuk.com/"
+  location = "Liverpool"
+  date_start = "2019-07-01"
+  date_end = ""
+  description = """
+The Technical Lead role at Vaultex involved managing a team of developers, coordinating with testers, product owners, BA's and other business stakeholders.
+  * Rebuilt a team from the ground up.
+  * Coached and mentored Junior, Mid and Senior developers.
+  * Adopted several legacy projects with zero documentation.
+  * Built CI/CD pipelines for said legacy projects.
+  * Instrumental in the “Path to Live” project to put development standards in place across several teams.
+  """
+
+[[experience]]
   title = "Technical Architect"
   company = "The Lead Agency"
   company_url = "https://www.theleadagency.com/"
   location = "Liverpool"
   date_start = "2019-03-18"
-  date_end = ""
+  date_end = "2019-06-28"
   description = """
 The Technical Architect role was created to take responsibility for system architecture, code quality and development process across the TLA development teams. 
   

@@ -1,26 +1,18 @@
 +++
-# Feature/Skill widget.
-widget = "featurette"  # Do not modify this line!
-date = 2017-09-20T00:00:00
-
-# Activate this widget? true/false
-active = true
+# A Skills section created with the Featurette widget.
+widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
 title = "Skills"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 7
 
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
-# Available icon packs and icons:
-# * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
-# * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
-# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
-
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 [[feature]]
   icon = "globe-europe"
   icon_pack = "fas"
@@ -37,7 +29,7 @@ weight = 7
   icon = "microsoft "
   icon_pack = "fab"
   name = ".net"
-  description = ".net 4.7+, asp.net, Entity Framework, .net core 2.2+, Windows Forms, Xamarin"
+  description = ".net 4.8, asp.net, Entity Framework, .net core 3.1+, Windows Forms, Xamarin"
 
 [[feature]]
   icon = "cloud"
@@ -68,5 +60,4 @@ weight = 7
   icon_pack = "fas"
   name = "Everything else..."
   description = "Jira, Confluence, git, PlantUML"
-
 +++
