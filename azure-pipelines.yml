@@ -5,11 +5,13 @@ pool:
   name: Hosted
 
 steps:
-- task: giuliovdev.hugo-extension.hugo-build-task.HugoTask@1
+- task: HugoTask@1
   displayName: 'Hugo site generate'
   inputs:
+    source: 
     destination: '$(Build.ArtifactStagingDirectory)'
-    hugoVersion: 0.60.1
+    hugoVersion: '0.60.1'
+    extendedVersion: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
