@@ -11,7 +11,6 @@ steps:
     source: 
     destination: '$(Build.ArtifactStagingDirectory)'
     hugoVersion: '0.62.2'
-    extendedVersion: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
