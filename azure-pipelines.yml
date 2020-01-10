@@ -5,12 +5,15 @@ pool:
   name: Hosted
 
 steps:
+- checkout: self
+  submodules: true
+
 - task: HugoTask@1
-  displayName: 'Hugo site generate'
   inputs:
     source: 
     destination: '$(Build.ArtifactStagingDirectory)'
     hugoVersion: '0.62.2'
+    extendedVersion: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
