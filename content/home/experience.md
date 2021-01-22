@@ -18,12 +18,53 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Development Manager"
+  company = "Blue Prism"
+  company_url = "https://www.blueprism.com/"
+  location = "Warrington"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = """
+The Technical Lead role at Vaultex involved managing a team of developers, coordinating with testers, product owners, BA's and other business stakeholders.
+  *	Drive a collaborative working relationship between local and remote team members (through KPIs, etc.)
+  *	Make system design and decisions on current generation and green-field projects, involving and collaborating with the rest of the development team. 
+  *	You will own the software delivery across the entire SDLC lifecycle, end-to-end, and have software delivery management responsibilities 
+  *	Work with the Director of Engineering and the team to consistently move the software development process forward in terms of agility
+  *	When in a sprint team, work closely alongside product owners, developers, QA, etc. to ensure epics/user stories are delivered to high quality and pragmatically.
+  *	Research and validate emerging technologies for suitability against technology ecosystesm
+  *	Highlight requirements for Development Team infrastructure and tooling
+  *	Working with other Engineering dept leads,internal and external to plan, execute and deliver across a product release.
+  *	Promote opportunities for process and working practice improvements
+  *	Work hand-in-hand with other Blue Prism development teams to promote joined-up thinking and a  #oneblueprism mindset
+
+  """
+
+[[experience]]
+  title = "Development Team Lead"
+  company = "Blue Prism"
+  company_url = "https://www.blueprism.com/"
+  location = "Warrington"
+  date_start = "2020-04-20"
+  date_end = "2021-01-31"
+  description = """
+The Development Team Lead role at Blue Prism involved managing a team of developers, working alogisde a sprint team and coordinating with other teams within the business.
+  *	Team appraisals, recruitment, line management responsibilities 
+  *	Make system design and decisions on current generation and green-field projects, involving and collaborating with the rest of the development team. 
+  *	Develop application architecture that is scalable, reliable, available and manageable
+  *	Work with the Development Manager and the team to consistently move the software development process forward in terms of agility
+  *	When in a sprint team, work closely alongside product owners, developers, QA, etc. to ensure epics/user stories are delivered to high quality and pragmatically.
+  *	Provision and maintenance of skills assessment within the team.
+  *	Highlight requirements for Development Team infrastructure and tooling
+
+  """
+
+[[experience]]
   title = "Technical Lead"
   company = "Vaultex"
   company_url = "https://vaultexuk.com/"
   location = "Birchwood"
   date_start = "2019-07-01"
-  date_end = ""
+  date_end = "2020-03-31"
   description = """
 The Technical Lead role at Vaultex involved managing a team of developers, coordinating with testers, product owners, BA's and other business stakeholders.
   * Rebuilt a team from the ground up.

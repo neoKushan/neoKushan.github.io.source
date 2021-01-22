@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: .net Technical Lead and nerd
+role: Development Manager and nerd
 
 # Organizations/Affiliations
 organizations:
-- name: Vaultex
-  url: "https://vaultexuk.com/"
+- name: Blue Prism
+  url: "https://www.blueprism.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Developer, nerd, cat enthusiast.
@@ -31,7 +31,7 @@ education:
   courses:
   - course: BSc Computer Games Technology
     institution: Liverpool John Moore's University
-    year: 209
+    year: 2009
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
