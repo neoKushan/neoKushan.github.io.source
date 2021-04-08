@@ -25,10 +25,10 @@ date_format = "Jan 2006"
   date_start = "2021-02-01"
   date_end = ""
   description = """
-The Technical Lead role at Vaultex involved managing a team of developers, coordinating with testers, product owners, BA's and other business stakeholders.
+The Development Manager role at Blue Prism involves managing a team of development team leads, coordinating the QA Lead, product managers, BA's and other business stakeholders.
   *	Drive a collaborative working relationship between local and remote team members (through KPIs, etc.)
   *	Make system design and decisions on current generation and green-field projects, involving and collaborating with the rest of the development team. 
-  *	You will own the software delivery across the entire SDLC lifecycle, end-to-end, and have software delivery management responsibilities 
+  *	Owning the software delivery across the entire SDLC lifecycle, end-to-end, and have software delivery management responsibilities 
   *	Work with the Director of Engineering and the team to consistently move the software development process forward in terms of agility
   *	When in a sprint team, work closely alongside product owners, developers, QA, etc. to ensure epics/user stories are delivered to high quality and pragmatically.
   *	Research and validate emerging technologies for suitability against technology ecosystesm
