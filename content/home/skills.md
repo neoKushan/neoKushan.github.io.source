@@ -17,7 +17,7 @@ subtitle = ""
   icon = "globe-europe"
   icon_pack = "fas"
   name = "Programming Languages"
-  description = "C++/CLI, C#, VB.net, Powershell, Bash, Javascript"  
+  description = "C++/CLI, C#, VB.net, Powershell, Bash, Javascript, TypeScript, Go, Java"  
 
 [[feature]]
   icon = "markdown"
@@ -29,7 +29,7 @@ subtitle = ""
   icon = "microsoft "
   icon_pack = "fab"
   name = ".net"
-  description = ".net 4.8, asp.net, Entity Framework, .net core 3.1+, Windows Forms, Xamarin"
+  description = ".net 4.8, asp.net, Entity Framework, .net (core) 9+, Windows Forms, Xamarin"
 
 [[feature]]
   icon = "cloud"
@@ -41,7 +41,7 @@ subtitle = ""
   icon = "server"
   icon_pack = "fas"
   name = "Devops"
-  description = "CI/CD, Release Management, Azure Devops (VSTS), ELK stack, Prometheus"
+  description = "CI/CD, Release Management, Azure Devops (VSTS), Github, ELK stack, Prometheus"
 
 [[feature]]
   icon = "docker"

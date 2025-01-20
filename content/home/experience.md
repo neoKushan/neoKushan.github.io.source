@@ -38,7 +38,7 @@ More to come...
   company_url = "https://www.blueprism.com/"
   location = "Warrington"
   date_start = "2023-04-01"
-  date_end = ""
+  date_end = "2023-04-01"
   description = """
 The Development Manager role at Blue Prism involves managing a team of development team leads, coordinating the QA Lead, product managers, BA's and other business stakeholders.
   *	Drive a collaborative working relationship between local and remote team members (through KPIs, etc.)

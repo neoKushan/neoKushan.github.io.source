@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Development Manager and nerd
+role: Development Director and nerd
 
 # Organizations/Affiliations
 organizations:
