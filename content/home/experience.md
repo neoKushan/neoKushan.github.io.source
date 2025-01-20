@@ -18,11 +18,24 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Development Director"
+  company = "Blue Prism"
+  company_url = "https://www.blueprism.com/"
+  location = "Warrington"
+  date_start = "2023-04-01"
+  date_end = ""
+  description = """
+More to come...
+
+  """
+
+
+[[experience]]
   title = "Development Manager"
   company = "Blue Prism"
   company_url = "https://www.blueprism.com/"
   location = "Warrington"
-  date_start = "2021-02-01"
+  date_start = "2023-04-01"
   date_end = ""
   description = """
 The Development Manager role at Blue Prism involves managing a team of development team leads, coordinating the QA Lead, product managers, BA's and other business stakeholders.
