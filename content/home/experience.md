@@ -26,7 +26,9 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 More to come...
-
+* Line Managed 2 Development Managers, while continuing to line manage 3 Dev Team Leads as Blue Prism shifted to focus on delivering the Next-gen SASS product offering.
+* Key to the development and deployment of Blue Prism's Next-gen product, employing agile methodologies and a "DevOPS First" mindset to achieve a 50% faster release cycle and improving system scalability by 200%.
+* Heavily involved in ensuring CI/CD was at the core of Next-gen's delivery process, ensuring rapid and sustainable delivery by integrating automated testing frameworks, which enhanced release frequency by 200% and minimized deployment risks across diverse environments.
   """
 
 
