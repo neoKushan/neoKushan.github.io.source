@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "?xml",
       "a",
       "article",
       "aside",
@@ -702,6 +703,7 @@
       "-ai--emerging-tech",
       "-architecture--code",
       "-leadership--strategy",
+      "Layer_1",
       "Microservices-2--Streamline-Carbon",
       "a",
       "b",

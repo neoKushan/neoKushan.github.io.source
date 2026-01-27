@@ -62,7 +62,7 @@ sections:
       categories:
         - name: AI & Emerging Tech
           items:
-            - name: OpenAI / ChatGPT
+            - name: OpenAI ChatGPT
               icon: brands/openai
             - name: Anthropic Claude
               icon: brands/claude
@@ -70,7 +70,7 @@ sections:
               icon: brands/gemini
             - name: Microsoft Copilot
               icon: brands/copilot
-            - name: MCP (Model Context Protocol) AI
+            - name: MCP (Model Context Protocol)
               icon: brands/mcp 
             - name: LangChain 
               icon: brands/langchain
@@ -90,7 +90,7 @@ sections:
               icon: devicon/go
             - name: Python 
               icon: devicon/python
-            - name: C++ # 
+            - name: C++ 
               icon: devicon/cplusplus
         - name: Databases 
           items:
@@ -145,7 +145,7 @@ sections:
             - name: Technical Strategy
               icon: icons/pawn 
             - name: Global Team Leadership
-              icon: icons/world
+              icon: icons/worldglobe
             - name: Mentoring & Coaching
               icon: icons/seed 
             - name: Budgeting
