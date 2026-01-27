@@ -39,12 +39,37 @@ steps:
     hugo version
   displayName: 'Install Hugo Extended 0.154.5'
 
+# Initialize Hugo modules
+- script: |
+    hugo mod get -u
+    hugo mod tidy
+  displayName: 'Download and update Hugo modules'
+
 # Build site (Hugo + Pagefind)
 - script: |
-    pnpm run build
+    echo "=== Building Hugo site ==="
+    hugo --minify --gc --logLevel info
+    echo "=== Checking CSS output ==="
+    ls -lh public/css/ || echo "No CSS directory found"
+    echo "=== Running Pagefind ==="
+    pnpm run pagefind
+    echo "=== Build complete ==="
   displayName: 'Build site with Hugo and Pagefind'
   env:
     HUGO_ENVIRONMENT: production
+    HUGO_ENABLEGITINFO: 'true'
+
+# Verify build output
+- script: |
+    echo "=== Verifying build artifacts ==="
+    ls -lh public/
+    echo "=== CSS files ==="
+    find public/css -name "*.css" | head -10
+    echo "=== JS files ==="
+    find public/js -name "*.js" | head -10
+    echo "=== Total size ==="
+    du -sh public/
+  displayName: 'Verify build output'
 
 # Publish build artifacts
 - task: PublishBuildArtifacts@1
