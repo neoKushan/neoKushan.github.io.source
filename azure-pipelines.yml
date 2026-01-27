@@ -29,6 +29,10 @@ steps:
 # Install dependencies
 - script: |
     pnpm install --no-frozen-lockfile
+    echo "=== Verifying TailwindCSS installation ==="
+    ls -la node_modules/.bin/tailwindcss
+    chmod +x node_modules/.bin/tailwindcss
+    ./node_modules/.bin/tailwindcss --version
   displayName: 'Install dependencies with pnpm'
 
 # Install Hugo Extended
@@ -47,10 +51,20 @@ steps:
 
 # Build site (Hugo + Pagefind)
 - script: |
+    echo "=== Adding node_modules/.bin to PATH ==="
+    export PATH="$(pwd)/node_modules/.bin:$PATH"
+    echo "PATH contains node_modules/.bin"
+    echo "=== Verifying tooling ==="
+    which tailwindcss || echo "tailwindcss not in PATH"
+    tailwindcss --version || echo "Cannot execute tailwindcss"
     echo "=== Building Hugo site ==="
     hugo --minify --gc --logLevel info
     echo "=== Checking CSS output ==="
     ls -lh public/css/ || echo "No CSS directory found"
+    if [ -d public/css ]; then
+      echo "CSS files size:"
+      find public/css -name "*.css" -exec ls -lh {} \;
+    fi
     echo "=== Running Pagefind ==="
     pnpm run pagefind
     echo "=== Build complete ==="
@@ -64,9 +78,11 @@ steps:
     echo "=== Verifying build artifacts ==="
     ls -lh public/
     echo "=== CSS files ==="
-    find public/css -name "*.css" | head -10
+    find public/css -name "*.css" 2>/dev/null | head -10 || echo "No CSS files found"
     echo "=== JS files ==="
-    find public/js -name "*.js" | head -10
+    find public/js -name "*.js" 2>/dev/null | head -10 || echo "No JS files found"
+    echo "=== Hugo Blox dist files ==="
+    ls -la public/dist/ 2>/dev/null || echo "No dist directory"
     echo "=== Total size ==="
     du -sh public/
   displayName: 'Verify build output'
