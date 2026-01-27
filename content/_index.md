@@ -145,7 +145,7 @@ sections:
             - name: Technical Strategy
               icon: icons/pawn 
             - name: Global Team Leadership
-              icon: hero/globe-europe-africa
+              icon: icons/world
             - name: Mentoring & Coaching
               icon: icons/seed 
             - name: Budgeting
