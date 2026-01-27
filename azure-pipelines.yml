@@ -2,17 +2,34 @@ trigger:
 - master
 
 pool:
-  name: Hosted
+  vmImage: 'ubuntu-latest'
 
 steps:
 - checkout: self
-  submodules: true
+  submodules: false  # We use Hugo modules now, not git submodules
 
+# Install Go (required for Hugo modules)
+- task: GoTool@0
+  inputs:
+    version: '1.23'
+  displayName: 'Install Go'
+
+# Install Node.js (required for TailwindCSS)
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20.x'
+  displayName: 'Install Node.js'
+
+# Install npm dependencies (TailwindCSS)
+- script: npm install
+  displayName: 'Install npm dependencies'
+
+# Install Hugo Extended
 - task: giuliovdev.hugo-extension.hugo-build-task-v2.HugoTask@2
   inputs:
-    source: 
+    source:
     destination: '$(Build.ArtifactStagingDirectory)'
-    hugoVersion: '0.62.2'
+    hugoVersion: '0.154.5'
     extendedVersion: true
 
 - task: PublishBuildArtifacts@1

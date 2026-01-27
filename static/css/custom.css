@@ -1,0 +1,113 @@
+/* Make the container wider on large screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1600px !important;
+  }
+}
+
+/* Tighten up spacing */
+.home-section {
+  padding: 3rem 0 !important;
+}
+
+/* Better card spacing in grid */
+.col-lg-6 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Experience timeline optimization */
+.experience .card {
+  margin-bottom: 1.5rem !important;
+}
+
+/* About section - profile on left, bio on right */
+.wg-about .col-lg-4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.wg-about .avatar {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1.5rem;
+}
+
+.wg-about .portrait-title {
+  margin-bottom: 1.5rem;
+}
+
+.wg-about .network-icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.wg-about .network-icon li {
+  display: inline-block;
+}
+
+.wg-about .network-icon a {
+  font-size: 1.5rem;
+}
+
+.wg-about .col-lg-8 .article-style {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* On larger screens, align text left in bio */
+@media (min-width: 992px) {
+  .wg-about .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wg-about .col-lg-8 .article-style {
+    padding-left: 2rem;
+  }
+}
+
+/* Skills section styling */
+.wg-features .featurette {
+  margin-top: 2rem;
+}
+
+.wg-features .featurette > div {
+  margin-bottom: 2.5rem;
+}
+
+.wg-features .featurette-icon {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: #0073e6;
+}
+
+.wg-features .section-subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.wg-features p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Make skills responsive */
+@media (min-width: 768px) {
+  .wg-features .featurette > .col-sm-4 {
+    min-height: 200px;
+  }
+}

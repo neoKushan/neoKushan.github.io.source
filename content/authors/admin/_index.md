@@ -33,6 +33,38 @@ education:
     institution: Liverpool John Moore's University
     year: 2009
 
+skills:
+  - name: Programming Languages
+    description: 'C++/CLI, C#, VB.net, Powershell, Bash, Javascript, TypeScript, Go, Java'
+    percent: 90
+    icon: code
+    icon_pack: fas
+  - name: .NET
+    description: '.NET 4.8, asp.net, Entity Framework, .NET (core) 9+, Windows Forms, Xamarin'
+    percent: 95
+    icon: microsoft
+    icon_pack: fab
+  - name: Cloud
+    description: 'Azure, AWS'
+    percent: 85
+    icon: cloud
+    icon_pack: fas
+  - name: DevOps
+    description: 'CI/CD, Release Management, Azure DevOps (VSTS), Github, ELK stack, Prometheus'
+    percent: 90
+    icon: server
+    icon_pack: fas
+  - name: Containers
+    description: 'Docker, Kubernetes'
+    percent: 85
+    icon: docker
+    icon_pack: fab
+  - name: IoT
+    description: 'Home Assistant, Z-Wave, Zigbee'
+    percent: 75
+    icon: wifi
+    icon_pack: fas
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the

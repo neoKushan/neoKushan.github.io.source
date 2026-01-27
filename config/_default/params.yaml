@@ -1,0 +1,37 @@
+# Appearance
+appearance:
+  mode: system
+  color: blue
+
+# Marketing
+marketing:
+  seo:
+    site_type: Person
+    twitter: KushanTheCat
+  analytics:
+    google_analytics: ''
+    google_tag_manager: ''
+
+# Site features
+features:
+  syntax_highlighter:
+    enable: true
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+
+# Site header
+header:
+  navbar:
+    enable: true
+
+# Site footer
+footer:
+  copyright:
+    notice: '© {year} Steve Donaghy'
