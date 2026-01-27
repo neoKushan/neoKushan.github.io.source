@@ -76,7 +76,7 @@ sections:
               icon: brands/langchain
             - name: Ollama 
               icon: brands/ollama1
-            - name: Hugging Face Education)
+            - name: Hugging Face
               icon: icons/huggingface
         - name: Languages
           items:
