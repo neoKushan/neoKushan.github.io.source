@@ -7,6 +7,7 @@ pool:
 steps:
 - checkout: self
   submodules: false  # We use Hugo modules now, not git submodules
+  fetchDepth: 0
 
 # Install Go (required for Hugo modules)
 - task: GoTool@0
@@ -14,23 +15,41 @@ steps:
     version: '1.23'
   displayName: 'Install Go'
 
-# Install Node.js (required for TailwindCSS)
+# Install Node.js (required for TailwindCSS and Pagefind)
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.x'
-  displayName: 'Install Node.js'
+    versionSpec: '22.x'
+  displayName: 'Install Node.js 22'
 
-# Install npm dependencies (TailwindCSS)
-- script: npm install
-  displayName: 'Install npm dependencies'
+# Install pnpm
+- script: |
+    npm install -g pnpm@10.14.0
+  displayName: 'Install pnpm'
+
+# Install dependencies
+- script: |
+    pnpm install --no-frozen-lockfile
+  displayName: 'Install dependencies with pnpm'
 
 # Install Hugo Extended
-- task: giuliovdev.hugo-extension.hugo-build-task-v2.HugoTask@2
-  inputs:
-    source:
-    destination: '$(Build.ArtifactStagingDirectory)'
-    hugoVersion: '0.154.5'
-    extendedVersion: true
+- script: |
+    wget https://github.com/gohugoio/hugo/releases/download/v0.154.5/hugo_extended_0.154.5_linux-amd64.tar.gz
+    tar -xzf hugo_extended_0.154.5_linux-amd64.tar.gz
+    sudo mv hugo /usr/local/bin/
+    hugo version
+  displayName: 'Install Hugo Extended 0.154.5'
 
+# Build site (Hugo + Pagefind)
+- script: |
+    pnpm run build
+  displayName: 'Build site with Hugo and Pagefind'
+  env:
+    HUGO_ENVIRONMENT: production
+
+# Publish build artifacts
 - task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/public'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
   displayName: 'Publish Artifact: drop'
