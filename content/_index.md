@@ -23,15 +23,21 @@ sections:
         prefix: "I build"
         strings:
           - "enterprise software"
-          - "DevOps pipelines"
-          - "scalable systems"
-          - "great teams"
+          - "seamless pipelines"
+          - "scalable platforms"
+          - "world class teams"
+          - "high-performing cultures"
+          - "future leaders"
+          - "engineering excellence"
+          - "technical strategy"
+          - "cloud-native solutions"
+          - "operational efficiency"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
-          url: "#projects"
+        - text: What I do
+          url: "#experience"
           icon: arrow-down
         - text: Get In Touch
           url: "#contact"
