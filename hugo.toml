@@ -1,51 +1,24 @@
 title = "Steve Donaghy"
 baseURL = "/"
-copyright = ""
 languageCode = "en-us"
 
 defaultContentLanguage = "en"
-hasCJKLanguage = false
-defaultContentLanguageInSubdir = false
-removePathAccents = true
-
 enableGitInfo = false
 enableEmoji = true
 
-[pagination]
-  pagerSize = 10
-
 [outputs]
-  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+  home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
-
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
-
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  [markup.highlight]
-    codeFences = false
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 3
-
-[imaging]
-  resampleFilter = "Lanczos"
-  quality = 90
-  anchor = "Smart"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
 
 [security]
   [security.funcs]

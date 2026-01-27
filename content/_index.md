@@ -1,168 +1,167 @@
 ---
-title: Steve Donaghy
+# Leave the homepage title empty to use the site title
+title: ''
+summary: ''
+date: 2026-01-05
 type: landing
 
 design:
-  spacing: "4rem"
+  # Default section spacing
+  spacing: '0'
 
 sections:
-  - block: about.avatar
-    id: about
+  # Developer Hero - Gradient background with name, role, social, and CTAs
+  - block: dev-hero
+    id: hero
     content:
-      username: admin
+      username: me
+      greeting: "Hi, I'm"
+      show_status: true
+      show_scroll_indicator: true
+      typewriter:
+        enable: true
+        prefix: "I build"
+        strings:
+          - "enterprise software"
+          - "DevOps pipelines"
+          - "scalable systems"
+          - "great teams"
+        type_speed: 70
+        delete_speed: 40
+        pause_time: 2500
+      cta_buttons:
+        - text: View My Work
+          url: "#projects"
+          icon: arrow-down
+        - text: Get In Touch
+          url: "#contact"
+          icon: envelope
     design:
-      columns: '1'
-
-  - block: features
+      style: centered
+      avatar_shape: circle
+      animations: true
+      background:
+        color:
+          light: "#fafafa"
+          dark: "#0a0a0f"
+      spacing:
+        padding: ["6rem", "0", "4rem", "0"]
+  
+  # Visual Tech Stack - Icons organized by category
+  - block: tech-stack
     id: skills
     content:
-      title: Skills
-      items:
-        - name: Programming Languages
-          description: C++/CLI, C#, VB.net, Powershell, Bash, Javascript, TypeScript, Go, Java
-          icon: code
-          icon_pack: fas
+      title: "Tech Stack"
+      subtitle: "Technologies I use to build things"
+      categories:
+        - name: Languages
+          items:
+            - name: C#
+              icon: devicon/csharp
+            - name: TypeScript
+              icon: devicon/typescript
+            - name: Go
+              icon: devicon/go
+            - name: PowerShell
+              icon: devicon/powershell
         - name: .NET
-          description: .NET 4.8, asp.net, Entity Framework, .NET (core) 9+, Windows Forms, Xamarin
-          icon: microsoft
-          icon_pack: fab
-        - name: Cloud
-          description: Azure, AWS
-          icon: cloud
-          icon_pack: fas
+          items:
+            - name: .NET Core
+              icon: devicon/dotnetcore
+            - name: ASP.NET
+              icon: devicon/dot-net
+            - name: Entity Framework
+              icon: devicon/dotnetcore
         - name: DevOps
-          description: CI/CD, Release Management, Azure DevOps (VSTS), Github, ELK stack, Prometheus
-          icon: server
-          icon_pack: fas
-        - name: Containers
-          description: Docker, Kubernetes
-          icon: docker
-          icon_pack: fab
-        - name: IoT
-          description: Home Assistant, Z-Wave, Zigbee
-          icon: wifi
-          icon_pack: fas
+          items:
+            - name: Docker
+              icon: devicon/docker
+            - name: Kubernetes
+              icon: devicon/kubernetes
+            - name: Azure
+              icon: devicon/azure
+            - name: GitHub Actions
+              icon: brands/github
+        - name: Tools
+          items:
+            - name: Git
+              icon: devicon/git
+            - name: Azure DevOps
+              icon: devicon/azure
+            - name: Prometheus
+              icon: devicon/prometheus
+            - name: Linux
+              icon: devicon/linux
     design:
-      columns: '2'
-
-  - block: experience
+      style: grid
+      show_levels: false
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+  
+  # Experience Timeline
+  - block: resume-experience
     id: experience
     content:
-      title: Experience
-      date_format: Jan 2006
-      items:
-        - title: Development Director
-          company: Blue Prism
-          company_url: 'https://www.blueprism.com/'
-          location: Warrington
-          date_start: '2023-04-01'
-          date_end: ''
-          description: |
-              * Line Managed 2 Development Managers, while continuing to line manage 3 Dev Team Leads as Blue Prism shifted to focus on delivering the Next-gen SASS product offering.
-              * Key to the development and deployment of Blue Prism's Next-gen product, employing agile methodologies and a "DevOPS First" mindset to achieve a 50% faster release cycle and improving system scalability by 200%.
-              * Heavily involved in ensuring CI/CD was at the core of Next-gen's delivery process, ensuring rapid and sustainable delivery by integrating automated testing frameworks, which enhanced release frequency by 200% and minimized deployment risks across diverse environments.
-        
-        - title: Development Manager
-          company: Blue Prism
-          company_url: 'https://www.blueprism.com/'
-          location: Warrington
-          date_start: '2021-02-01'
-          date_end: '2023-04-01'
-          description: |
-              * Drive a collaborative working relationship between local and remote team members
-              * Make system design and decisions on current generation and green-field projects
-              * Owning the software delivery across the entire SDLC lifecycle
-              * Work with the Director of Engineering to consistently move the software development process forward
-        
-        - title: Development Team Lead
-          company: Blue Prism
-          company_url: 'https://www.blueprism.com/'
-          location: Warrington
-          date_start: '2020-04-20'
-          date_end: '2021-01-31'
-          description: |
-              * Team appraisals, recruitment, line management responsibilities
-              * Make system design and decisions on current generation and green-field projects
-              * Develop application architecture that is scalable, reliable, available and manageable
-        
-        - title: Technical Lead
-          company: Vaultex
-          company_url: 'https://vaultexuk.com/'
-          location: Birchwood
-          date_start: '2019-07-01'
-          date_end: '2020-03-31'
-          description: |
-              * Rebuilt a team from the ground up
-              * Coached and mentored Junior, Mid and Senior developers
-              * Built CI/CD pipelines for legacy projects
-        
-        - title: Technical Architect
-          company: The Lead Agency
-          company_url: 'https://www.theleadagency.com/'
-          location: Liverpool
-          date_start: '2019-03-18'
-          date_end: '2019-06-28'
-          description: |
-              * Managing, coaching and training team members of all levels
-              * Systems architecture, ensuring all future designs are consistent
-              * Technology Selection, including ownership of the Tech Radar
-        
-        - title: Engagement Team Manager
-          company: The Lead Agency
-          company_url: 'https://www.theleadagency.com/'
-          location: Liverpool
-          date_start: '2017-07-31'
-          date_end: '2019-03-18'
-          description: |
-              * Building and maintaining major user-facing sites
-              * Managing, coaching and training team members
-              * Building major projects using cutting edge technology
-        
-        - title: Senior Developer
-          company: Amaze
-          company_url: 'https://www.amazerealise.com/'
-          location: Liverpool
-          date_start: '2016-10-01'
-          date_end: '2017-07-28'
-          description: |
-              * Working on major client sites, such as Virgin Trains East Coast and Childline
-              * Heavy use of asp.net 4.5
-              * Dealing directly with clients
-        
-        - title: Development Team Manager
-          company: ICC Solutions
-          company_url: 'https://www.amazerealise.com/'
-          location: Liverpool
-          date_start: '2011-07-01'
-          date_end: '2016-09-30'
-          description: |
-              * Updating, supporting and maintaining software solutions
-              * Guided developers to employ better working practices
-              * Migrated codebase from SVN to git and set up continuous integration
+      username: me
+      title: "Experience"
+      subtitle: "My professional journey"
     design:
-      columns: '2'
+      columns: '1'
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
 
-  - block: collection
+  # Filterable Portfolio - Alpine.js powered project filtering
+  - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: "Featured Projects"
+      subtitle: "A selection of my work"
+      count: 0
       filters:
         folders:
-          - project
+          - projects
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Open Source
+          tag: Open Source
+        - name: .NET
+          tag: .NET
+      default_button_index: 0
     design:
-      view: card
-      columns: '2'
+      columns: 3
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
 
-  - block: markdown
+  # Contact Section
+  - block: contact-info
     id: contact
     content:
-      title: Contact
-      text: |
-        Feel free to reach out!
-        
-        **Email:** donaghy.steve@googlemail.com
-        
-        **Location:** Liverpool, UK
+      title: Get In Touch
+      subtitle: "Let's build something amazing together"
+      text: |-
+        I'm always interested in hearing about new projects and opportunities.
+        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
+      email: donaghy.steve@googlemail.com
+      autolink: true
     design:
-      columns: '2'
+      columns: '1'
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
 ---

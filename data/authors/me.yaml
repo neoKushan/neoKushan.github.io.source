@@ -1,0 +1,119 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Steve Donaghy
+  given: Steve
+  family: Donaghy
+postnominals: []
+status:
+  icon: "💻"
+role: Development Director and nerd
+email: donaghy.steve@googlemail.com
+bio: |
+  Development Director with 10+ years of experience building enterprise software.
+  I absolutely ❤ technology - from reprogramming satellite receivers at age 8 to leading development teams.
+
+affiliations:
+  - name: Blue Prism
+    url: https://www.blueprism.com/
+
+links:
+  - icon: at-symbol
+    url: "#contact"
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/neoKushan
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/stephen-donaghy-b0703015
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/kushan.wtf
+  - icon: brands/steam
+    url: https://steamcommunity.com/id/Kushan
+
+interests:
+  - Technology
+  - Development
+  - Gaming
+  - Baking
+  - Cats
+
+education:
+  - degree: BSc Computer Games Technology
+    institution: Liverpool John Moore's University
+    start: 2006-09-01
+    end: 2009-05-31
+
+experience:
+  - role: Development Director
+    org: Blue Prism
+    start: 2023-04-01
+    summary: |
+      Line Managed 2 Development Managers, while continuing to line manage 3 Dev Team Leads.
+      Key to the development and deployment of Blue Prism's Next-gen product, employing agile methodologies and a "DevOPS First" mindset to achieve a 50% faster release cycle and improving system scalability by 200%.
+      Heavily involved in ensuring CI/CD was at the core of Next-gen's delivery process.
+
+  - role: Development Manager
+    org: Blue Prism
+    start: 2021-02-01
+    end: 2023-04-01
+    summary: |
+      Drive a collaborative working relationship between local and remote team members.
+      Make system design and decisions on current generation and green-field projects.
+      Owning the software delivery across the entire SDLC lifecycle.
+
+  - role: Development Team Lead
+    org: Blue Prism
+    start: 2020-04-20
+    end: 2021-01-31
+    summary: |
+      Team appraisals, recruitment, line management responsibilities.
+      Make system design and decisions on current generation and green-field projects.
+      Develop application architecture that is scalable, reliable, available and manageable.
+
+  - role: Technical Lead
+    org: Vaultex
+    start: 2019-07-01
+    end: 2020-03-31
+    summary: |
+      Rebuilt a team from the ground up.
+      Coached and mentored Junior, Mid and Senior developers.
+      Built CI/CD pipelines for legacy projects.
+
+  - role: Technical Architect
+    org: The Lead Agency
+    start: 2019-03-18
+    end: 2019-06-28
+    summary: |
+      Managing, coaching and training team members of all levels.
+      Systems architecture, ensuring all future designs are consistent.
+      Technology Selection, including ownership of the Tech Radar.
+
+skills:
+  - name: Development
+    items:
+      - label: C#
+        level: 5
+      - label: TypeScript
+        level: 4
+      - label: Go
+        level: 3
+      - label: Python
+        level: 3
+  - name: DevOps
+    items:
+      - label: Docker
+        level: 5
+      - label: Kubernetes
+        level: 4
+      - label: Azure
+        level: 5
+      - label: CI/CD
+        level: 5
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+
+awards: []
