@@ -43,11 +43,11 @@ While I focus on strategy today, I remain deeply technical. I believe you cannot
 
 When I'm not optimizing pipelines or mentoring leaders, I am usually:
 
-* 🐈 Wrangling my 4 cats.
+* 🐈 Wrangling one of my 4 cats (Yes, 4!)
 * 🎮 Gaming on Steam (Ask me about my current obsession).
 * 🥐 Baking (Engineering you can eat).
-* 🤖 **The IoT Battle:** I spend an unhealthy amount of time trying to get my vacuum cleaner to negotiate a peace treaty with my cat-flap.
-* 🖨️ 3D Printing: Turning perfectly good spools of filament into 'abstract art' (and occasionally useful parts).
+* 🤖 Smart Home tech (I spend an unhealthy amount of time trying to get my vacuum cleaner to negotiate a peace treaty with my cat-flap.)
+* 🖨️ 3D Printing (Turning perfectly good spools of filament into 'abstract art') 
 
 ---
 
