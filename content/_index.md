@@ -154,6 +154,7 @@ sections:
               icon: icons/handshake 
             - name: Public Speaking
               icon: icons/mic 
+            - name: Recruitment
               icon: brands/linkedin
             - name: Crisis Management
               icon: icons/fire-ext 
