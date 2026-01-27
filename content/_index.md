@@ -57,8 +57,8 @@ sections:
   - block: tech-stack
     id: skills
     content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      title: "The Stack"
+      subtitle: "How I do what I do"
       categories:
         - name: AI & Emerging Tech
           items:
@@ -70,33 +70,35 @@ sections:
               icon: brands/gemini
             - name: Microsoft Copilot
               icon: brands/copilot
-            - name: MCP (Model Context Protocol) # Shows you understand standard interfaces for AI
-              icon: brands/mcp # Generic icon, or use a 'server' icon
-            - name: LangChain # The industry standard for orchestration (good to know both)
+            - name: MCP (Model Context Protocol) AI
+              icon: brands/mcp 
+            - name: LangChain 
               icon: brands/langchain
-            - name: Ollama # Shows you know how to run 'safe/local' models (huge for Education)
+            - name: Ollama 
               icon: brands/ollama1
-            - name: Hugging Face # Shows you know how to run 'safe/local' models (huge for Education)
-              icon: brands/huggingface
+            - name: Hugging Face Education)
+              icon: icons/huggingface
         - name: Languages
           items:
             - name: C#
               icon: devicon/csharp
+            - name: Visual Basic
+              icon: devicon/visualbasic
             - name: TypeScript
               icon: devicon/typescript
             - name: Go
               icon: devicon/go
-            - name: Python # Crucial to list here too for data/scripting
+            - name: Python 
               icon: devicon/python
-            - name: C++ # Differentiator: Shows deep technical roots (Games/Legacy)
+            - name: C++ # 
               icon: devicon/cplusplus
-        - name: Databases # MISSING FROM YOUR LIST
+        - name: Databases 
           items:
             - name: SQL Server
               icon: devicon/microsoftsqlserver
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis # Vital for the "Scale" narrative
+            - name: Redis 
               icon: devicon/redis
             - name: MongoDB
               icon: devicon/mongodb
@@ -112,13 +114,13 @@ sections:
               icon: devicon/dot-net
             - name: Entity Framework
               icon: devicon/dotnetcore
-            - name: Blazor # Optional: If you want to show modern .NET UI
+            - name: Blazor 
               icon: devicon/blazor
         - name: Cloud & DevOps
           items:
             - name: Azure
               icon: devicon/azure
-            - name: AWS # Listed in your CV, shows multi-cloud maturity
+            - name: AWS 
               icon: devicon/amazonwebservices-wordmark
             - name: Kubernetes
               icon: devicon/kubernetes
@@ -128,34 +130,33 @@ sections:
               icon: devicon/github
             - name: Docker
               icon: devicon/docker
-            - name: Terraform # Highly likely for a Director owning "Infrastructure"
+            - name: Terraform 
               icon: devicon/terraform
-        - name: Architecture # SUGGESTED CATEGORY
+        - name: Architecture 
           items:
-            - name: Kafka # Listed in your CV, key for "Event Driven"
+            - name: Kafka 
               icon: devicon/apachekafka
             - name: Microservices
               icon: brands/microservice1
-            - name: FinOps # You explicitly own this strategy
+            - name: FinOps 
               icon: hero/currency-pound
         - name: Leadership & Culture
           items:
             - name: Technical Strategy
-              icon: ♟️ # Chess pawn implies strategy/moves
+              icon: icons/pawn 
             - name: Global Team Leadership
               icon: hero/globe-europe-africa
             - name: Mentoring & Coaching
-              icon: 🌱 # Growth/Seedling
-            - name: FinOps & Budgeting
-              icon: 💸 # Money with wings (perfect for 'controlling' spend)
+              icon: icons/seed 
+            - name: Budgeting
+              icon: icons/money 
             - name: Stakeholder Management
-              icon: 🤝 # Handshake
+              icon: icons/handshake 
             - name: Public Speaking
-              icon: 🎤 # Microphone
-            - name: Recruitment & Hiring
+              icon: icons/mic 
               icon: brands/linkedin
             - name: Crisis Management
-              icon: 🧯 # Fire extinguisher (Putting out fires)
+              icon: icons/fire-ext 
     design:
       style: grid
       show_levels: false
@@ -214,7 +215,7 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Need a world class leader?"
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!

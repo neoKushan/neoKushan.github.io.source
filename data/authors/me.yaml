@@ -11,8 +11,8 @@ status:
 role: Software Engineering Director
 email: donaghy.steve@googlemail.com
 bio: |
-  Development Director with 10+ years of experience building enterprise software.
-  I absolutely ❤ technology - from reprogramming satellite receivers at age 8 to leading development teams.
+  Software Engineering Director with nearly 20 years of experience building enterprise software.
+  I absolutely ❤ technology - from reprogramming satellite receivers at age 8 to building and leading world-class development teams.
 
 affiliations:
   - name: Blue Prism
@@ -49,45 +49,50 @@ experience:
     org: Blue Prism
     start: 2023-04-01
     summary: |
-      Line Managed 2 Development Managers, while continuing to line manage 3 Dev Team Leads.
-      Key to the development and deployment of Blue Prism's Next-gen product, employing agile methodologies and a "DevOPS First" mindset to achieve a 50% faster release cycle and improving system scalability by 200%.
-      Heavily involved in ensuring CI/CD was at the core of Next-gen's delivery process.
+      - **Global Leadership:** Leading a remote-first engineering department of ~150 individuals across 18 squads, cultivating a high-performing leadership tier of Managers and Team Leads.
+      - **Next-Gen Architecture:** Directing the technical strategy for the WorkHQ SaaS product, shifting the organization to a cloud-native posture that captured critical market opportunities.
+      - **Engineering Excellence:** Spearheaded a "DevOps First" transformation, embedding CI/CD at the core of delivery to drive a **15x increase in release frequency** and a **500% faster release cycle**.
+      - **Strategic Operations:** Architected a department-wide FinOps strategy, linking engineering output directly to business value and empowering teams to reduce operational costs.
 
   - role: Development Manager
     org: Blue Prism
     start: 2021-02-01
     end: 2023-04-01
     summary: |
-      Drive a collaborative working relationship between local and remote team members.
-      Make system design and decisions on current generation and green-field projects.
-      Owning the software delivery across the entire SDLC lifecycle.
+      - **Team Leadership:** Led multiple development teams totalling ~50 individuals, delivering the core Blue Prism product and experimental initiatives that evolved into the Next-gen offering.
+      - **Department Scaling:** Engineered a **300% expansion** of the engineering department, establishing a "remote-first" powerhouse by strategically recruiting from global talent pools.
+      - **Operational Efficiency:** Drove a **25% productivity increase** by re-architecting cross-functional workflows and systematically removing blockers to empower team autonomy.
+      - **Global Collaboration:** Optimized offshore partnerships and communication channels, resulting in a **40% reduction in handoff latency** and significantly smoother sprint cycles.
 
   - role: Development Team Lead
     org: Blue Prism
     start: 2020-04-20
     end: 2021-01-31
     summary: |
-      Team appraisals, recruitment, line management responsibilities.
-      Make system design and decisions on current generation and green-field projects.
-      Develop application architecture that is scalable, reliable, available and manageable.
+      - **Hands-on Delivery:** Delivered significant core features such as 64-bit support and enhanced browser automation by coaching, pair programming, and enforcing best practices.
+      - **People Management:** Direct line management of 8 software engineers, actively mentoring key individuals to progress into future leadership positions.
+      - **Process Engineering:** Led the project management migration to Jira, establishing engineering-friendly workflows that enhanced delivery cadence and collaboration.
+      - **Technical Stack:** Leveraged C#, VB.NET, and C++ across both classic and modern .NET frameworks to drive product improvements.
 
   - role: Technical Lead
     org: Vaultex
     start: 2019-07-01
     end: 2020-03-31
     summary: |
-      Rebuilt a team from the ground up.
-      Coached and mentored Junior, Mid and Senior developers.
-      Built CI/CD pipelines for legacy projects.
+      - **Team Turnaround:** Rebuilt a development team of 7 from the ground up, coaching developers from Junior to Senior levels to restore delivery capacity following critical personnel losses.
+      - **Legacy Stabilization:** Adopted and stabilized 4 undocumented legacy projects requiring live support, effectively managing emergency fixes while recovering domain knowledge.
+      - **DevOps Implementation:** Designed and built CI/CD pipelines for inherited projects, successfully decreasing time to delivery by up to 7 days.
+      - **Standardization:** Instrumental in the "Path to Live" project, developing and deploying engineering standards across multiple teams to ensure consistency.
 
   - role: Technical Architect
     org: The Lead Agency
     start: 2019-03-18
     end: 2019-06-28
     summary: |
-      Managing, coaching and training team members of all levels.
-      Systems architecture, ensuring all future designs are consistent.
-      Technology Selection, including ownership of the Tech Radar.
+      - **Solution Architecture:** Architected and delivered major initiatives using Containers and Machine Learning, while migrating legacy stacks to modern cloud-native solutions using Umbraco.
+      - **Platform Performance:** Delivered a sophisticated lead generation platform that directly increased conversion rates by over 50%.
+      - **DevOps & Quality:** Migrated on-premise TFS to Azure DevOps and instituted comprehensive code review cycles, accelerating bug detection by 35% and reducing deployment errors.
+      - **Tech Culture:** Managed a team of 6 and organized external tech events and open days to elevate the company's technical brand and engineering culture.
 
 skills:
   - name: Development
