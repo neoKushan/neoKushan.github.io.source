@@ -60,6 +60,24 @@ sections:
       title: "Tech Stack"
       subtitle: "Technologies I use to build things"
       categories:
+        - name: AI & Emerging Tech
+          items:
+            - name: OpenAI / ChatGPT
+              icon: brands/openai
+            - name: Anthropic Claude
+              icon: brands/claude
+            - name: Google Gemini
+              icon: brands/gemini
+            - name: Microsoft Copilot
+              icon: brands/copilot
+            - name: MCP (Model Context Protocol) # Shows you understand standard interfaces for AI
+              icon: brands/mcp # Generic icon, or use a 'server' icon
+            - name: LangChain # The industry standard for orchestration (good to know both)
+              icon: brands/langchain
+            - name: Ollama # Shows you know how to run 'safe/local' models (huge for Education)
+              icon: brands/ollama1
+            - name: Hugging Face # Shows you know how to run 'safe/local' models (huge for Education)
+              icon: brands/huggingface
         - name: Languages
           items:
             - name: C#
@@ -68,36 +86,76 @@ sections:
               icon: devicon/typescript
             - name: Go
               icon: devicon/go
-            - name: PowerShell
-              icon: devicon/powershell
+            - name: Python # Crucial to list here too for data/scripting
+              icon: devicon/python
+            - name: C++ # Differentiator: Shows deep technical roots (Games/Legacy)
+              icon: devicon/cplusplus
+        - name: Databases # MISSING FROM YOUR LIST
+          items:
+            - name: SQL Server
+              icon: devicon/microsoftsqlserver
+            - name: PostgreSQL
+              icon: devicon/postgresql
+            - name: Redis # Vital for the "Scale" narrative
+              icon: devicon/redis
+            - name: MongoDB
+              icon: devicon/mongodb
+            - name: MariaDB
+              icon: devicon/mariadb
+            - name: MySQL
+              icon: devicon/mysql
         - name: .NET
           items:
-            - name: .NET Core
+            - name: Modern .NET
               icon: devicon/dotnetcore
-            - name: ASP.NET
+            - name: ASP.NET Core
               icon: devicon/dot-net
             - name: Entity Framework
               icon: devicon/dotnetcore
-        - name: DevOps
+            - name: Blazor # Optional: If you want to show modern .NET UI
+              icon: devicon/blazor
+        - name: Cloud & DevOps
           items:
-            - name: Docker
-              icon: devicon/docker
-            - name: Kubernetes
-              icon: devicon/kubernetes
             - name: Azure
               icon: devicon/azure
-            - name: GitHub Actions
-              icon: brands/github
-        - name: Tools
-          items:
-            - name: Git
+            - name: AWS # Listed in your CV, shows multi-cloud maturity
+              icon: devicon/amazonwebservices-wordmark
+            - name: Kubernetes
+              icon: devicon/kubernetes
+            - name: git
               icon: devicon/git
-            - name: Azure DevOps
-              icon: devicon/azure
-            - name: Prometheus
-              icon: devicon/prometheus
-            - name: Linux
-              icon: devicon/linux
+            - name: GitHub
+              icon: devicon/github
+            - name: Docker
+              icon: devicon/docker
+            - name: Terraform # Highly likely for a Director owning "Infrastructure"
+              icon: devicon/terraform
+        - name: Architecture # SUGGESTED CATEGORY
+          items:
+            - name: Kafka # Listed in your CV, key for "Event Driven"
+              icon: devicon/apachekafka
+            - name: Microservices
+              icon: brands/microservice1
+            - name: FinOps # You explicitly own this strategy
+              icon: hero/currency-pound
+        - name: Leadership & Culture
+          items:
+            - name: Technical Strategy
+              icon: ♟️ # Chess pawn implies strategy/moves
+            - name: Global Team Leadership
+              icon: hero/globe-europe-africa
+            - name: Mentoring & Coaching
+              icon: 🌱 # Growth/Seedling
+            - name: FinOps & Budgeting
+              icon: 💸 # Money with wings (perfect for 'controlling' spend)
+            - name: Stakeholder Management
+              icon: 🤝 # Handshake
+            - name: Public Speaking
+              icon: 🎤 # Microphone
+            - name: Recruitment & Hiring
+              icon: brands/linkedin
+            - name: Crisis Management
+              icon: 🧯 # Fire extinguisher (Putting out fires)
     design:
       style: grid
       show_levels: false

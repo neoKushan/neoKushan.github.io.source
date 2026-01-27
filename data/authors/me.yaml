@@ -8,7 +8,7 @@ name:
 postnominals: []
 status:
   icon: "🐈"
-role: Development Director and nerd
+role: Software Engineering Director
 email: donaghy.steve@googlemail.com
 bio: |
   Development Director with 10+ years of experience building enterprise software.
@@ -45,7 +45,7 @@ education:
     end: 2009-05-31
 
 experience:
-  - role: Development Director
+  - role: Software Engineering Director
     org: Blue Prism
     start: 2023-04-01
     summary: |
