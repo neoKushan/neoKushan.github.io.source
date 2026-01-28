@@ -184,33 +184,6 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  # Filterable Portfolio - Alpine.js powered project filtering
-  - block: portfolio
-    id: projects
-    content:
-      title: "Featured Projects"
-      subtitle: "A selection of my work"
-      count: 0
-      filters:
-        folders:
-          - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Open Source
-          tag: Open Source
-        - name: .NET
-          tag: .NET
-      default_button_index: 0
-    design:
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
   # Contact Section
   - block: contact-info
     id: contact
